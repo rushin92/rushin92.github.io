@@ -5,41 +5,54 @@
         #first {color:red;}
         
         img{height: 200px; width: auto;}
+            body.dark-mode {
+                background-color: black;
+                color: white;
+            }
         </style>
     </head>
     
-    <body style="background-color:whitesmoke;">
-    
-    
-        <h1 id="first">Travel to India</h1>        
-    <p>India is a country in the continent of asia.</p>
-    <p>India's biggest landmark is Taj Mahal(you should go visit in summer as in winter it is like ice there)
-    </p>
-     <p><a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank">to know about taj mahal click here </a> </p>
-    </ol>
-
-        <img src="taj.png">
-        <p>In India they have many cultural stuff but also lot of cool stuf like in chennai almost evrey shop excepts Google Pay,Apple Pay and much more.</p>
-
-        <p> In india if you are going to tourist spots (metioned bellow) is northern india but if youre looking for a 3-5 star hotels to stay in south india is the best option thogh it has very little tourist spots</p>
-   <ol>
-       <li>Taj Mahal</li>
-       <li>Red Fort</li>
-       <li>Agra Fort</li>
-       <li>Marina Beach it is a very very long beach (south india)</li>
-       <li>pink city</li>
-       <li>Hawa mahal </li>
-       <li>jal mahal</li>
-       <li>Fathipur sikkre</li>
-       <li>Amber fort</li>
-       <li>And many more forts and monuments</li>
-       
+      <body>
 
 
-   </ol>
-    
-      
-    </ol>
-    <script> //document.body.innerHTML = "//Page is being updated it will be online soon  !";
-    </script>
-</body></html>
+          <h1 id="first">Travel to India</h1>
+          <button onclick="myFunction()">Toggle Dark Mode</button>
+          <p>India is a country in the continent of asia.</p>
+          <p>
+              India's biggest landmark is Taj Mahal(you should go visit in summer as in winter it is like ice there)
+          </p>
+          <p><a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank">to know about taj mahal click here </a> </p>
+          </ol>
+
+          <img src="taj.png">
+          <p>In India they have many cultural stuff but also lot of cool stuf like in chennai almost evrey shop excepts Google Pay,Apple Pay and much more.</p>
+
+          <p> In india if you are going to tourist spots (metioned bellow) is northern india but if youre looking for a 3-5 star hotels to stay in south india is the best option thogh it has very little tourist spots</p>
+          <ol>
+              <li>Taj Mahal</li>
+              <li>Red Fort</li>
+              <li>Agra Fort</li>
+              <li>Marina Beach it is a very very long beach (south india)</li>
+              <li>pink city</li>
+              <li>Hawa mahal </li>
+              <li>jal mahal</li>
+              <li>Fathipur sikkre</li>
+              <li>Amber fort</li>
+              <li>And many more forts and monuments</li>
+
+
+
+          </ol>
+
+
+          </ol>
+          <script>
+    //document.body.innerHTML = "//Page is being updated it will be online soon  !";
+          </script>
+          <script>
+              function myFunction() {
+                  var element = document.body;
+                  element.classList.toggle("dark-mode");
+              }
+          </script>
+      </body></html>

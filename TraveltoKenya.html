@@ -11,33 +11,45 @@
             height: 200px;
             width: auto;
         }
+        body.dark-mode {
+            background-color: black;
+            color: white;
+        }
     </style>
 </head>
 
-<body style="background-color:white;">
+<body>
 
     <h1 id="first">Travel to Kenya</h1>
+    <button onclick="myFunction()">Toggle Dark Mode</button>
     <p> What is kenya? </p>
     <p> Kenya is a country located in Africa </p>
-   <p>
-
-
-
-   </p>
-   <p>
-       Fact center </p>
     <p>
-       Fact 1: Kenya has many tribes <br />
-       Fact 2: The pepole of Kenya have been folowing traditions for over a century <br />
-       Fact 3: Kenya's national animal is a lion(it is also the king of the jungle) <br />
-       </p>
+
+
+
+    </p>
+    <p>
+        Fact center
+    </p>
+    <p>
+        Fact 1: Kenya has many tribes <br />
+        Fact 2: The pepole of Kenya have been folowing traditions for over a century <br />
+        Fact 3: Kenya's national animal is a lion(it is also the king of the jungle) <br />
+    </p>
     <p> Kenya has a lot of cultural stuff </p>
     <p><a href="https://en.wikipedia.org/wiki/Kenya" target="_blank">to know more about kenya click here </a> </p>
-    
+
 
     <p> By Rushin and Shivin</p>
     <script>
- //document.body.innerHTML = "//Page is being updated it will be online soon  !";
+        //document.body.innerHTML = "//Page is being updated it will be online soon  !";
+    </script>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
     </script>
 </body>
 </html>

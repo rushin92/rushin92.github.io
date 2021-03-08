@@ -5,26 +5,39 @@
         #first {color:blue;}
         
         img{height: 200px; width: auto;}
+
+            body.dark-mode {
+                background-color: black;
+                color: white;
+            }
         </style>
     </head>
     
-    <body style="background-color:white;">
-    
-        <h1 id="first">Travel to Mexico</h1>        
-    <p> Half of Mexico was bought by the United States of america </p>
-    <img src="MEX.png">
-    <p>Fact center</p>
-    <ol>
-     <li> In Mexico they celebrate in the end of  October and it is called as  El Dia de los Muertos, or Day of the Dead. </li>
-     <li> El Dia de los Muertos, or Day of the Dead. Is where they celebrate their ancestor </li> 
-     <li>Mexico  is located in North America and to be more precise bellow the United States of America </li>
-     <li> The tadional dance is called as  Jarabe. The Jarabe is considered Mexico's “national dance” and is the best known outside the country, often called the “Mexican Hat Dance” in English. </li>
-   </ol>
-    </p>
-    <p></p>
-     <p><a href="https://en.wikipedia.org/wiki/Mexico" target="_blank">to know about Mexico click here </a> </p>
-   
+      <body>
 
-    <script> //document.body.innerHTML = "//Page is being updated it will be online soon  !";
-    </script>
-</body></html>
+          <h1 id="first">Travel to Mexico</h1>
+          <button onclick="myFunction()">Toggle Dark Mode</button>
+          <p> Half of Mexico was bought by the United States of america </p>
+          <img src="MEX.png">
+          <p>Fact center</p>
+          <ol>
+              <li> In Mexico they celebrate in the end of  October and it is called as  El Dia de los Muertos, or Day of the Dead. </li>
+              <li> El Dia de los Muertos, or Day of the Dead. Is where they celebrate their ancestor </li>
+              <li>Mexico  is located in North America and to be more precise bellow the United States of America </li>
+              <li> The tadional dance is called as  Jarabe. The Jarabe is considered Mexico's “national dance” and is the best known outside the country, often called the “Mexican Hat Dance” in English. </li>
+          </ol>
+          </p>
+          <p></p>
+          <p><a href="https://en.wikipedia.org/wiki/Mexico" target="_blank">to know about Mexico click here </a> </p>
+
+
+          <script>
+ //document.body.innerHTML = "//Page is being updated it will be online soon  !";
+          </script>
+          <script>
+              function myFunction() {
+                  var element = document.body;
+                  element.classList.toggle("dark-mode");
+              }
+          </script>
+      </body></html>

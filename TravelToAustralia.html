@@ -5,30 +5,47 @@
         #first {color:blue;}
         
         img{height: 200px; width: auto;}
+
+            body {
+                background-color: white;
+                color: black;
+            }
+        
+        body.dark-mode {
+                background-color: black;
+                color: white;
+            }
         </style>
     </head>
     
-    <body style="background-color:white;">
-    
-        <h1 id="first">Travel to Australia</h1>
-        <img src="AUS.png"/>    
-    
-    <p>Australia is the only country that is also a continent</p>
-    <p>Fact center </p>
-   <ol>
-       <li>The New zeland flag and the Australian flag look similar </li>
-       <li>Australia has kiwis and kangaroos.</li>
-       <li>The cross in the Australian flag represents the Australians ruled by the British </li>
-       <li>in Australia there is The sydney opera house</li>
-   </ol>
-    
-     <p><a href="https://en.wikipedia.org/wiki/Australia" target="_blank">to know about Australia click here </a> </p>
+       <body>
+
+           <h1 id="first">Travel to Australia</h1>
+           <button onclick="myFunction()">Toggle Dark Mode</button>
+           <img src="AUS.png" />
+
+           <p>Australia is the only country that is also a continent</p>
+           <p>Fact center </p>
+           <ol>
+               <li>The New zeland flag and the Australian flag look similar </li>
+               <li>Australia has kiwis and kangaroos.</li>
+               <li>The cross in the Australian flag represents the Australians ruled by the British </li>
+               <li>in Australia there is The sydney opera house</li>
+           </ol>
+
+           <p><a href="https://en.wikipedia.org/wiki/Australia" target="_blank">to know about Australia click here </a> </p>
 
 
-   
 
-    
-    <script> //document.body.innerHTML = "//Page is being updated it will be online soon  !";
-    </script>
-</body></html>
+
+
+           <script>
+            //document.body.innerHTML = "//Page is being updated it will be online soon  !";</script>
+           <script>
+    function myFunction() {
+                   var element = document.body;
+                   element.classList.toggle("dark-mode");
+               }
+           </script>
+       </body></html>
 

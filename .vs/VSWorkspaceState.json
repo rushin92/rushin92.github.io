@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\dinosaurs",
-    "\\dragons",
-    "\\ghosts",
-    "\\travel",
-    "\\Vampires"
+    "\\travel"
   ],
-  "SelectedNode": "\\ghosts\\index.html",
+  "SelectedNode": "\\travel\\index.html",
   "PreviewInSolutionExplorer": false
 }

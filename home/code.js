@@ -29,6 +29,6 @@ setText("text_input1", "Your name here del and then type");
 onEvent("Set", "click", function( ) {
   setScreen("screen3");
 });
-onEvent("id", "click", function( ) {
-  setScreen("screen1");
+onEvent("Home", "click", function () {
+    setScreen("screen3");
 });
